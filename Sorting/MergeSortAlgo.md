@@ -51,6 +51,24 @@ Merge Sort requires additional space for temporary arrays during the merge phase
 - Requires additional space for merging.
 - Slower for small datasets compared to some other algorithms.
 
-## Usage
+## Applications
 
-Merge Sort is a classic algorithm widely used in various applications where stable and predictable sorting is required. Its consistent performance makes it a reliable choice for sorting large datasets.
+- **External Sorting:**
+Merge Sort is well-suited for external sorting where data is too large to fit into the computer's main memory. It's commonly used in scenarios involving large datasets stored on external storage devices.
+
+- **Linked Lists:**
+Merge Sort is advantageous for sorting linked lists due to its efficient merging of two sorted lists. It doesn't require random access to elements, making it suitable for linked structures.
+
+- **Inversion Count Problem:**
+Merge Sort can be used to efficiently solve problems related to counting inversions in an array, which is useful in measuring how far the array is from being sorted.
+
+- **Parallel Computing:**
+The divide-and-conquer nature of Merge Sort makes it suitable for parallel processing. Various parallel algorithms are based on the principles of Merge Sort.
+
+- **File Merge in Disk Drives:**
+Merge Sort is used in scenarios where multiple sorted files need to be merged into a single sorted file, common in distributed systems and file processing.
+
+- **Optical Character Recognition (OCR):**
+Merge Sort has applications in OCR systems where the sorting of characters or features is essential for efficient recognition and processing.
+
+Merge Sort's stable and predictable performance makes it a versatile choice for various applications, especially when dealing with large or external datasets.
