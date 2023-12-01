@@ -4,31 +4,30 @@ A linked list is a data structure that consists of a sequence of elements, where
 
 ## Table of Contents
 
-- [Singly Linked List]([#singly-linked-list](https://github.com/tusharpamnani/DSA/blob/main/Linked%20Lists/SinlyLinkedList.md))
-- [Doubly Linked List](#doubly-linked-list)
+- [Singly Linked List](https://github.com/tusharpamnani/DSA/blob/main/Linked%20Lists/SinlyLinkedList.md)
+- [Doubly Linked List](https://github.com/tusharpamnani/DSA/blob/main/Linked%20Lists/DoublyLinkedList.md)
 
 ## Overview
 
 This direcotry contains implementations and explanations of both singly linked lists and doubly linked lists in the C programming language.
 
-## Singly Linked List
+## Types of Linked Lists
 
-### Functionality
+- Singly Linked List:
 
-- **Insertion:**
-  - At the beginning
-  - At the end
-  - At a specific position
+  - Each node in a singly linked list contains data and a pointer/reference to the next node in the sequence. It allows traversal only in the forward direction.
 
-- **Deletion:**
-  - From the beginning
-  - From the end
-  - From a specific position
+- Doubly Linked List:
 
-- **Operations:**
-  - Searching for an element
-  - Traversing the linked list
-  - Detecting loops in the linked list
+  - Each node in a doubly linked list contains data, a pointer to the next node, and a pointer to the previous node. This bidirectional linking enables traversal in both forward and backward directions.
+
+- Circular Linked List:
+
+  - In a circular linked list, the last node's next pointer points back to the first node, creating a closed loop. This type allows continuous traversal in a circular manner.
+
+- Doubly Circular Linked List:
+
+  - Similar to a circular linked list, but each node in a doubly circular linked list has a pointer to both the next and previous nodes, enabling bidirectional circular traversal.
  
 ## Advantages of Linked Lists
 
