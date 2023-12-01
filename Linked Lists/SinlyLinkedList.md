@@ -2,12 +2,6 @@
 
 This repository contains a basic implementation of a Singly Linked List in the C programming language. A Singly Linked List is a data structure where each element (node) contains data and a pointer/reference to the next node in the sequence.
 
-## Files
-
-- `singly_linked_list.c`: Contains the implementation of Singly Linked List operations.
-- `singly_linked_list.h`: Header file for the Singly Linked List, defining the structure and function prototypes.
-- `main.c`: Example usage of the Singly Linked List.
-
 ## Functionality
 
 The Singly Linked List implementation includes the following operations:
