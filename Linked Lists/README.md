@@ -4,7 +4,7 @@ A linked list is a data structure that consists of a sequence of elements, where
 
 ## Table of Contents
 
-- [Singly Linked List](#singly-linked-list)
+- [Singly Linked List]([#singly-linked-list](https://github.com/tusharpamnani/DSA/blob/main/Linked%20Lists/SinlyLinkedList.md))
 - [Doubly Linked List](#doubly-linked-list)
 
 ## Overview
