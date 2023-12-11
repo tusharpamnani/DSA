@@ -17,7 +17,7 @@ The `graphs` directory includes C++ implementations of essential graph algorithm
 
 ### Features
 
-1. **Depth-First Search (DFS):** Traverse through the graph using DFS. ([Code](./graphs/DFS.cpp))
+1. **Depth-First Search (DFS):** Traverse through the graph using DFS. ([Code](./Graphs/DFS.cpp))
 2. **Breadth-First Search (BFS):** Explore the graph in breadth-first order. ([Code](./graphs/BFS.cpp))
 3. **Dijkstra's Shortest Path:** Find the shortest path in a weighted graph. ([Code](./graphs/Dijkstra.cpp))
 4. **Prim's Minimum Spanning Tree:** Construct the minimum spanning tree using Prim's algorithm. ([Code](./graphs/Prim.cpp))
