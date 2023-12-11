@@ -1,6 +1,6 @@
 # Data Structures and Algorithms Repository
 
-Welcome to the Data Structures and Algorithms repository! This repository contains C++ implementations of fundamental data structures and algorithms, designed to help you learn and understand core concepts in computer science.
+Welcome to the Data Structures and Algorithms repository! This repository contains C/C++ implementations of fundamental data structures and algorithms, designed to help you learn and understand core concepts in computer science.
 
 ## Table of Contents
 
