@@ -30,7 +30,7 @@ The `linked_lists` directory contains C/C++ implementations of various linked li
 ### Features
 
 1. **Singly Linked List:** Basic singly linked list operations. ([Code in C](./Linked-Llists/SinglyLinkedList.c))
-2. **Doubly Linked List:** Operations on doubly linked lists, including forward and backward traversal. ([Code in C](./Linked%20Lists/DoublyLinkedList.c))
+2. **Doubly Linked List:** Operations on doubly linked lists, including forward and backward traversal. ([Code in C](./Linked%20Lists/DoublyLinkedLists.c))
 3. **Circular Linked List:** Circular representation and operations on linked lists. ([Code in C](./Linked_-Lists/CircularLinkedList.c))
 
 ## Sorting Algorithms
