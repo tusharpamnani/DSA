@@ -13,34 +13,34 @@ Welcome to the Data Structures and Algorithms repository! This repository contai
 
 ## Graphs
 
-The `graphs` directory includes C++ implementations of essential graph algorithms and representations. Graphs are versatile data structures used to model relationships between entities.
+The `graphs` directory includes C/C++ implementations of essential graph algorithms and representations. Graphs are versatile data structures used to model relationships between entities.
 
 ### Features
 
 1. **Depth-First Search (DFS):** Traverse through the graph using DFS. ([Code in C++](./Graphs/DFS.cpp)) ([Code in C](./Graphs/DFS.c))
-2. **Breadth-First Search (BFS):** Explore the graph in breadth-first order. ([Code](./graphs/BFS.cpp))
-3. **Dijkstra's Shortest Path:** Find the shortest path in a weighted graph. ([Code](./graphs/Dijkstra.cpp))
-4. **Prim's Minimum Spanning Tree:** Construct the minimum spanning tree using Prim's algorithm. ([Code](./graphs/Prim.cpp))
-5. **Kruskal's Minimum Spanning Tree:** Build the minimum spanning tree using Kruskal's algorithm. ([Code](./graphs/Kruskal.cpp))
+2. **Breadth-First Search (BFS):** Explore the graph in breadth-first order. ([Code in C++](./Graphs/BFS.cpp)) ([Code in C](./Graphs/BFS.c))
+3. **Dijkstra's Shortest Path:** Find the shortest path in a weighted graph. ([Code](./Graphs/Dijkstra.cpp)) ([Code in C](./Graphs/Dijkstra.c))
+4. **Prim's Minimum Spanning Tree:** Construct the minimum spanning tree using Prim's algorithm. ([Code](./Graphs/Prim.cpp)) ([Code in C](./Graphs/Prim.c))
+5. **Kruskal's Minimum Spanning Tree:** Build the minimum spanning tree using Kruskal's algorithm. ([Code](./Graphs/Kruskal.cpp)) ([Code in C](./Graphs/Kruskal.c))
 
 ## Linked Lists
 
-The `linked_lists` directory contains C++ implementations of various linked list types, offering insights into their structure and operations.
+The `linked_lists` directory contains C/C++ implementations of various linked list types, offering insights into their structure and operations.
 
 ### Features
 
-1. **Singly Linked List:** Basic singly linked list operations. ([Code](./linked_lists/SinglyLinkedList.cpp))
-2. **Doubly Linked List:** Operations on doubly linked lists, including forward and backward traversal. ([Code](./linked_lists/DoublyLinkedList.cpp))
-3. **Circular Linked List:** Circular representation and operations on linked lists. ([Code](./linked_lists/CircularLinkedList.cpp))
+1. **Singly Linked List:** Basic singly linked list operations. ([Code in C](./Linked-Llists/SinglyLinkedList.c))
+2. **Doubly Linked List:** Operations on doubly linked lists, including forward and backward traversal. ([Code in C](./Linked-Lists/DoublyLinkedList.c))
+3. **Circular Linked List:** Circular representation and operations on linked lists. ([Code in C](./Linked_-Lists/CircularLinkedList.c))
 
 ## Sorting Algorithms
 
-The `sorting_algorithms` directory presents C++ implementations of well-known sorting algorithms.
+The `sorting_algorithms` directory presents C/C++ implementations of well-known sorting algorithms.
 
 ### Sorting Algorithms Implemented
 
-1. **Quick Sort:** Efficient in-place sorting. ([Code](./sorting_algorithms/QuickSort.cpp))
-2. **Merge Sort:** Divide-and-conquer approach for stable sorting. ([Code](./sorting_algorithms/MergeSort.cpp))
+1. **Quick Sort:** Efficient in-place sorting. ([Code in C++](./Sorting/2.QuickSort.cpp))
+2. **Merge Sort:** Divide-and-conquer approach for stable sorting. ([Code in C++](./Sorting/1.MergeSort.cpp))
 3. **Heap Sort:** Efficient comparison-based sorting. ([Code](./sorting_algorithms/HeapSort.cpp))
 4. **Insertion Sort:** Simple sorting algorithm with linear time for small data sets. ([Code](./sorting_algorithms/InsertionSort.cpp))
 5. **Counting Sort:** Non-comparative sorting for integers. ([Code](./sorting_algorithms/CountingSort.cpp))
@@ -48,12 +48,12 @@ The `sorting_algorithms` directory presents C++ implementations of well-known so
 
 ## Searching Algorithms
 
-The `searching_algorithms` directory showcases C++ implementations of common searching algorithms.
+The `searching_algorithms` directory showcases C/C++ implementations of common searching algorithms.
 
 ### Searching Algorithms Implemented
 
-1. **Binary Search:** Efficient search in sorted arrays. ([Code](./searching_algorithms/BinarySearch.cpp))
-2. **Linear Search:** Basic linear search algorithm. ([Code](./searching_algorithms/LinearSearch.cpp))
+1. **Binary Search:** Efficient search in sorted arrays. ([Code in C++](./Searching/1.BinarySearch.cpp))
+2. **Linear Search:** Basic linear search algorithm. ([Code](./Searching/LinearSearch.cpp))
 
 ## Stack
 
