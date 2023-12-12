@@ -216,5 +216,27 @@ Kruskal(graph):
 - **Advantages:** Guarantees a minimum spanning tree.
 - **Disadvantages:** Inefficient for dense graphs.
 
+## Complexities
+
+1. **Breadth-First Search (BFS):**
+   - Time Complexity: O(V + E) where V is the number of vertices and E is the number of edges.
+   - Space Complexity: O(V) for the queue and O(V) for the visited set, making it O(V) in total.
+
+2. **Depth-First Search (DFS):**
+   - Time Complexity: O(V + E) where V is the number of vertices and E is the number of edges.
+   - Space Complexity: O(V) for the recursive call stack and O(V) for the visited set, making it O(V) in total.
+
+3. **Dijkstra's Algorithm:**
+   - Time Complexity: O((V + E) * log(V)) with a binary heap or Fibonacci heap for the priority queue implementation. Without a priority queue, the time complexity can go up to O(V^2), which is less efficient.
+   - Space Complexity: O(V) for the priority queue and O(V) for the distance array, making it O(V) in total.
+
+4. **Prim's Algorithm:**
+   - Time Complexity: O((V + E) * log(V)) with a binary heap or Fibonacci heap for the priority queue implementation. Without a priority queue, the time complexity can go up to O(V^2), which is less efficient.
+   - Space Complexity: O(V) for the priority queue and O(V) for the visited set, making it O(V) in total.
+
+5. **Kruskal's Algorithm:**
+   - Time Complexity: O(E * log(E)) for sorting the edges plus O(E * alpha(V)) for union-find operations, where alpha(V) is the inverse Ackermann function. In practice, alpha(V) is very slow-growing, and it can be considered as a constant.
+   - Space Complexity: O(V) for the disjoint-set data structure and O(E) for the sorted edges, making it O(E + V) in total.
+
 ## Conclusion:
 Graphs and their algorithms are versatile tools that find applications in various domains. The choice of algorithm depends on the specific problem requirements and characteristics of the graph. Each algorithm has its strengths and weaknesses, making it essential to understand their properties to select the most suitable approach for a given task.
