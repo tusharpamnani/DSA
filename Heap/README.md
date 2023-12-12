@@ -1,7 +1,3 @@
-Certainly! Here's a README file for the provided C++ code, focusing on Heap Sort, its applications, pseudocode, algorithm, use cases, etc.
-
----
-
 # Heap Sort Implementation in C++
 
 ## Overview
@@ -75,5 +71,3 @@ Heap Sort has various applications, including:
 ## Conclusion
 
 Heap Sort is a robust sorting algorithm with applications in various domains. This C++ program provides a practical implementation and demonstration of Heap Sort using a max heap.
-
----
