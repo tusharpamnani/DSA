@@ -21,7 +21,7 @@ The `graphs` directory includes C/C++ implementations of essential graph algorit
 2. **Breadth-First Search (BFS):** Explore the graph in breadth-first order. ([Code in C++](./Graphs/BFS.cpp)) ([Code in C](./Graphs/BFS.c))
 3. **Dijkstra's Shortest Path:** Find the shortest path in a weighted graph. ([Code in C++](./Graphs/DijkstrasAlgorithm.cpp)) ([Code in C](./Graphs/DijkstrasAlgorithm.c))
 4. **Prim's Minimum Spanning Tree:** Construct the minimum spanning tree using Prim's algorithm. ([Code in C++](./Graphs/PrimsAlgorithm.cpp)) ([Code in C](./Graphs/Prim.c))
-5. **Kruskal's Minimum Spanning Tree:** Build the minimum spanning tree using Kruskal's algorithm. ([Code](./Graphs/Kruskal.cpp)) ([Code in C](./Graphs/Kruskal.c))
+5. **Kruskal's Minimum Spanning Tree:** Build the minimum spanning tree using Kruskal's algorithm. ([Code in C++](./Graphs/KruskalsAlgorithm.cpp)) ([Code in C](./Graphs/Kruskal.c))
 
 ## Linked Lists
 
