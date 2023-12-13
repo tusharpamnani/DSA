@@ -48,7 +48,7 @@ The `heap` class includes the following methods:
 Compile and run the provided C++ code. The program includes examples of heap creation, insertion, deletion, and heap sort.
 
 ```bash
-g++ HeapSort.cpp -o HeapSort
+g++ Heap.cpp -o HeapSort
 ./HeapSort
 ```
 
